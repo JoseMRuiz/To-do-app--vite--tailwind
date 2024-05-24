@@ -1,8 +1,9 @@
-import CrossIcon from "./components/CrossIcon";
+
 import Header from "./components/Header";
 import TodoList from "./components/TodoList";
 import Todocomputed from "./components/Todocomputed";
 import Todocreate from "./components/Todocreate";
+import Todofilter from "./components/Todofilter";
 
 const app = () => {
   return(
@@ -17,10 +18,11 @@ const app = () => {
           <TodoList/>
 
           <Todocomputed/>
- 
+          
+          <Todofilter/>
+
       </main>
 
-     
 
       <p className="text-center mt-8">Drag an drop to reorder list</p>
       
