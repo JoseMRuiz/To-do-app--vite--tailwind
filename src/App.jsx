@@ -6,8 +6,6 @@ const app = () => {
     <>
     <div className=" min-h-screen bg-gray-300 bg-[url('./assets/images/bg-mobile-light.jpg')] bg-no-repeat bg-contain ">
 
-      
-
       <main className="mt-8 container mx-auto px-4">
 
         <div className=" rounded-md [&>article]:p-4 bg-white">
