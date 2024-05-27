@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 import Header from "./components/Header";
 import TodoList from "./components/TodoList";
 import Todocomputed from "./components/Todocomputed";
@@ -13,6 +14,7 @@ const initialStateTodos= [
     {id: 4, title: "ducharse" , completed:true},
     {id: 5, title: "leer" , completed:true},
 ]
+import Todofilter from "./components/Todofilter";
 
 const app = () => {
   const [todos,setTodos] = useState(initialStateTodos);
@@ -38,12 +40,14 @@ const app = () => {
           <TodoList todos={todos}/>
 
           <Todocomputed/>
-
+          
           <Todofilter/>
+
 
       </main>
 
     
+
 
       <p className="text-center mt-8">Drag an drop to reorder list</p>
       
@@ -54,6 +58,6 @@ const app = () => {
     
     </>
   )
-}
+};
 
 export default app;
