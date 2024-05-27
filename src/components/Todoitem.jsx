@@ -15,3 +15,5 @@ const TodoItem = ({todo}) => {
             </article>
     )
 }
+
+export default TodoItem;
